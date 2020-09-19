@@ -1,0 +1,76 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Helpers*/
+.wrapper {
+    width: 1400px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Main styles */
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #F2F2F2;
+}
+
+.navbar {
+    background-color:#F28E13;
+    border-top: 4px solid #F2A413;
+    padding: 1em 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.8em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-right {
+    float: right;
+}
+
+.navbar .navbar-right li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+}
+
+.navbar .navbar-right li:last-child {
+    margin-right: 0;
+}
+
+.navbar .navbar-right li a {
+    color : #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-right li a:hover{
+    color : #F2A413;
+}
+
+.footer{
+    margin-right: 3em;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.footer :before{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    width: 100px;
+    margin: 1.5em auto;
+}
